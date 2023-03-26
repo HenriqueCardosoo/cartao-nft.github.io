@@ -91,6 +91,17 @@ h2 {
   color: #e7e7e7;
 }
 
+.desafio {
+  font-size: 14px;
+  color: hsl(215, 51%, 70%);
+  position: relative;
+}
+
+.desafio a {
+  color: hsl(178, 100%, 50%);
+  text-decoration: none;
+}
+
 @media (max-width: 400px) {
   .container {
     margin-bottom: 300px;
