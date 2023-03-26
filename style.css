@@ -1,0 +1,11 @@
+html {
+  background: hsl(217, 54%, 11%);
+}
+
+.introducao {
+  text-align: center;
+}
+
+.introducao-img img {
+  border-radius: 4px;
+}
