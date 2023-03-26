@@ -12,7 +12,7 @@ html {
 .container {
   background: hsl(216, 50%, 16%);
   border-radius: 20px;
-  padding: 30px 30px 100px;
+  padding: 30px 30px 0px;
   text-align: center;
   width: 300px;
   text-align: left;
@@ -22,6 +22,11 @@ html {
   border-radius: 10px;
   max-width: 100%;
 }
+
+.introducao h1:hover {
+  color: hsl(178, 100%, 50%);
+}
+
 .introducao h1 {
   color: #ffffff;
   font-size: 20px;
@@ -67,8 +72,20 @@ h2 {
 .barra img {
   width: 30px;
   position: absolute;
+  top: 10px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  left: 10px;
 }
 
 .barra p {
   text-align: center;
+}
+
+.barra span:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+.barra span {
+  color: #e7e7e7;
 }
