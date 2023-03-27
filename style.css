@@ -107,3 +107,10 @@ h2 {
     margin-bottom: 300px;
   }
 }
+
+@media (max-width: 350px) {
+  .barra img {
+    left: -5px;
+    position: absolute;
+  }
+}
